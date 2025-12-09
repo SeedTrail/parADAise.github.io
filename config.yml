@@ -1,0 +1,10 @@
+title: "ADA Project"
+markdown: kramdown
+theme: minima
+
+plugins:
+  - jekyll-feed
+
+collections:
+  posts:
+    output: true
