@@ -1,1 +1,23 @@
+---
+layout: default
+---
+
+<div class="video-hero position-relative overflow-hidden">
+
+  <video class="hero-video" autoplay muted loop playsinline>
+    <source src="{{ '/assets/videos/intro.mp4' | relative_url }}" type="video/mp4">
+  </video>
+
+  <div class="hero-overlay"></div>
+
+  <div class="hero-text text-center text-white">
+    <h1 class="display-3 fw-bold">{{ page.title }}</h1>
+    <h3 class="fw-normal">{{ page.subtitle }}</h3>
+  </div>
+
+</div>
+
+<div class="mt-5">
+  {{ content }}
+</div>
 
